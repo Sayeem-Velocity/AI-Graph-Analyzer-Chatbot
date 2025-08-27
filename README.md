@@ -1,8 +1,3 @@
-Here’s a **plain, formal README.md** you can include in your project.
-No emojis, no fluff — just clear instructions for running your Groq Vision Chat app.
-
----
-
 # Groq Vision Chat
 
 This project is a simple multimodal chat application built with **Streamlit** and **Groq API**.
