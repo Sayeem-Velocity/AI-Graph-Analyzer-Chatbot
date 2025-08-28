@@ -1,4 +1,15 @@
-# Groq Vision Chat
+<p align="center">
+  <video src="./Preview%20of%20AI%20Graph%20Analyzer.mp4"
+         autoplay
+         muted
+         loop
+         playsinline
+         width="720"></video>
+</p>
+
+---
+
+# Graph Analyzer Bot
 
 This project is a simple multimodal chat application built with **Streamlit** and **Groq API**.
 It allows a user to upload a graph or chart image, type a query, and receive a grounded, human-like analysis of the graph.
