@@ -24,6 +24,9 @@ SYSTEM_PROMPT = (
     "generate a proper explanation of the graph within 2000 tokens , a good and concise and overall explanation"
     "If you don't see a graph, say 'No graph detected'."
     "Generate a proper description of the graph"
+    "if you don't see a graph, say 'No graph detected'. and no answers if the user asking for something else"
+    "strictly no answers if the user asking for something else like any questions about you or anything else or anything not related to the graph"
+    "check if the image is a graph or not, if not say 'No graph detected, make sure that please"
 )
 
 def _to_data_url(image_bytes: bytes, filename: str | None) -> str:
