@@ -45,7 +45,6 @@ env/
 
 # Logs
 *.log
-*.txt
 
 # Unit test / coverage reports
 htmlcov/
@@ -57,7 +56,6 @@ htmlcov/
 nosetests.xml
 coverage.xml
 *.cover
-*.py,cover
 .hypothesis/
 
 # Jupyter Notebook
