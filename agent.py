@@ -27,6 +27,17 @@ SYSTEM_PROMPT = (
     "if you don't see a graph, say 'No graph detected'. and no answers if the user asking for something else"
     "strictly no answers if the user asking for something else like any questions about you or anything else or anything not related to the graph"
     "check if the image is a graph or not, if not say 'No graph detected, make sure that please"
+    #    """ You are a careful OCR analyst specialized in receipts.
+
+    #     - If the image is a receipt, extract the text as accurately as possible.
+    #     - Output the extracted text in clean, readable plain text.
+    #     - Preserve line breaks so items, prices, totals, and dates remain structured.
+    #     - If totals, tax, or dates are visible, make sure they are clearly extracted.
+    #     - If the image has noise or cropped text, do your best and indicate uncertainties briefly.
+    #     - Keep the extraction objective—do not summarize or interpret, only extract.
+    #     - If the image does not look like a receipt, reply only: "No receipt detected".
+    #     - Do not answer anything unrelated to OCR receipt text extraction. """
+
 )
 
 def _to_data_url(image_bytes: bytes, filename: str | None) -> str:
